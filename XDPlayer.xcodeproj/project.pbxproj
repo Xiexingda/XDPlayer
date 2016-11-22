@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		8E2648301DE3150D00F73AC5 /* XDPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26482F1DE3150D00F73AC5 /* XDPlayerTests.m */; };
 		8E26483B1DE3150D00F73AC5 /* XDPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26483A1DE3150D00F73AC5 /* XDPlayerUITests.m */; };
-		8E26484E1DE3158F00F73AC5 /* SelectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2648491DE3158F00F73AC5 /* SelectImageView.m */; };
-		8E26484F1DE3158F00F73AC5 /* XDPlayerContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26484B1DE3158F00F73AC5 /* XDPlayerContorller.m */; };
-		8E2648501DE3158F00F73AC5 /* XDPlayerSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26484D1DE3158F00F73AC5 /* XDPlayerSetView.m */; };
 		8E2648981DE411F100F73AC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2648911DE411F100F73AC5 /* AppDelegate.m */; };
 		8E2648991DE411F100F73AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2648921DE411F100F73AC5 /* Assets.xcassets */; };
 		8E26489A1DE411F100F73AC5 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8E2648931DE411F100F73AC5 /* Base.lproj */; };
 		8E26489B1DE411F100F73AC5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E2648941DE411F100F73AC5 /* Info.plist */; };
 		8E26489C1DE411F100F73AC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2648951DE411F100F73AC5 /* main.m */; };
 		8E26489D1DE411F100F73AC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2648971DE411F100F73AC5 /* ViewController.m */; };
+		8E2648A41DE4152A00F73AC5 /* SelectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26489F1DE4152A00F73AC5 /* SelectImageView.m */; };
+		8E2648A51DE4152A00F73AC5 /* XDPlayerContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2648A11DE4152A00F73AC5 /* XDPlayerContorller.m */; };
+		8E2648A61DE4152A00F73AC5 /* XDPlayerSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2648A31DE4152A00F73AC5 /* XDPlayerSetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +45,6 @@
 		8E2648361DE3150D00F73AC5 /* XDPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E26483A1DE3150D00F73AC5 /* XDPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPlayerUITests.m; sourceTree = "<group>"; };
 		8E26483C1DE3150D00F73AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E2648481DE3158F00F73AC5 /* SelectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectImageView.h; path = XDPlayer/SelectImageView.h; sourceTree = "<group>"; };
-		8E2648491DE3158F00F73AC5 /* SelectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectImageView.m; path = XDPlayer/SelectImageView.m; sourceTree = "<group>"; };
-		8E26484A1DE3158F00F73AC5 /* XDPlayerContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XDPlayerContorller.h; path = XDPlayer/XDPlayerContorller.h; sourceTree = "<group>"; };
-		8E26484B1DE3158F00F73AC5 /* XDPlayerContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XDPlayerContorller.m; path = XDPlayer/XDPlayerContorller.m; sourceTree = "<group>"; };
-		8E26484C1DE3158F00F73AC5 /* XDPlayerSetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XDPlayerSetView.h; path = XDPlayer/XDPlayerSetView.h; sourceTree = "<group>"; };
-		8E26484D1DE3158F00F73AC5 /* XDPlayerSetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XDPlayerSetView.m; path = XDPlayer/XDPlayerSetView.m; sourceTree = "<group>"; };
 		8E2648901DE411F100F73AC5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XDPlayerDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		8E2648911DE411F100F73AC5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = XDPlayerDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		8E2648921DE411F100F73AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = XDPlayerDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
@@ -59,6 +53,12 @@
 		8E2648951DE411F100F73AC5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = XDPlayerDemo/main.m; sourceTree = SOURCE_ROOT; };
 		8E2648961DE411F100F73AC5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = XDPlayerDemo/ViewController.h; sourceTree = "<group>"; };
 		8E2648971DE411F100F73AC5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = XDPlayerDemo/ViewController.m; sourceTree = "<group>"; };
+		8E26489E1DE4152A00F73AC5 /* SelectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectImageView.h; sourceTree = "<group>"; };
+		8E26489F1DE4152A00F73AC5 /* SelectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectImageView.m; sourceTree = "<group>"; };
+		8E2648A01DE4152A00F73AC5 /* XDPlayerContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPlayerContorller.h; sourceTree = "<group>"; };
+		8E2648A11DE4152A00F73AC5 /* XDPlayerContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPlayerContorller.m; sourceTree = "<group>"; };
+		8E2648A21DE4152A00F73AC5 /* XDPlayerSetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPlayerSetView.h; sourceTree = "<group>"; };
+		8E2648A31DE4152A00F73AC5 /* XDPlayerSetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPlayerSetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +113,12 @@
 		8E2648141DE3150D00F73AC5 /* XDPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				8E2648481DE3158F00F73AC5 /* SelectImageView.h */,
-				8E2648491DE3158F00F73AC5 /* SelectImageView.m */,
-				8E26484A1DE3158F00F73AC5 /* XDPlayerContorller.h */,
-				8E26484B1DE3158F00F73AC5 /* XDPlayerContorller.m */,
-				8E26484C1DE3158F00F73AC5 /* XDPlayerSetView.h */,
-				8E26484D1DE3158F00F73AC5 /* XDPlayerSetView.m */,
+				8E26489E1DE4152A00F73AC5 /* SelectImageView.h */,
+				8E26489F1DE4152A00F73AC5 /* SelectImageView.m */,
+				8E2648A01DE4152A00F73AC5 /* XDPlayerContorller.h */,
+				8E2648A11DE4152A00F73AC5 /* XDPlayerContorller.m */,
+				8E2648A21DE4152A00F73AC5 /* XDPlayerSetView.h */,
+				8E2648A31DE4152A00F73AC5 /* XDPlayerSetView.m */,
 				8E2648151DE3150D00F73AC5 /* Supporting Files */,
 			);
 			path = XDPlayer;
@@ -286,11 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2648A61DE4152A00F73AC5 /* XDPlayerSetView.m in Sources */,
 				8E26489D1DE411F100F73AC5 /* ViewController.m in Sources */,
-				8E2648501DE3158F00F73AC5 /* XDPlayerSetView.m in Sources */,
-				8E26484F1DE3158F00F73AC5 /* XDPlayerContorller.m in Sources */,
-				8E26484E1DE3158F00F73AC5 /* SelectImageView.m in Sources */,
 				8E26489C1DE411F100F73AC5 /* main.m in Sources */,
+				8E2648A51DE4152A00F73AC5 /* XDPlayerContorller.m in Sources */,
+				8E2648A41DE4152A00F73AC5 /* SelectImageView.m in Sources */,
 				8E2648981DE411F100F73AC5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
