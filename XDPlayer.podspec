@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XDPlayer"
   s.version      = "0.0.1"
-  s.summary      = "一个可以横竖完全全屏的视频播放器"
+  s.summary      = "视频播放器"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-		       	一个可以实现横竖完全全屏的视频播放器
+			一个可以全屏的视频播放器
                    DESC
 
-  s.homepage     = "https://github.com/Xiexingda"
+  s.homepage     = "https://github.com/Xiexingda/XDPlayer"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   s.author             = { "xiexingda" => "779656694@qq.com" }
   # Or just: s.author    = "xiexingda"
   # s.authors            = { "xiexingda" => "779656694@qq.com" }
-  # s.social_media_url   = "http://twitter.com/xiexingda"
+  # s.social_media_url   = "https://github.com/Xiexingda/XDPlayer"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "7.0"
+  # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Xiexingda/XDPlayer.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Xiexingda/XDPlayer.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "XDPlayer/XDPlayer/XDPlayer/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "XDPlayer", "XDPlayer/XDPlayer/*.{h,m}"
+  s.exclude_files = "XDPlayer/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
