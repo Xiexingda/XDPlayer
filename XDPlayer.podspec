@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "XDPlayer", "XDPlayer/XDPlayer/*.{h,m}"
+  s.source_files  = "XDPlayer/*.{h,m}"
   s.exclude_files = "XDPlayer/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

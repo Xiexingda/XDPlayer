@@ -54,7 +54,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
 }
 
 - (void)viewDidLoad {
@@ -141,7 +140,9 @@
     //添加屏幕单机手势（ 隐藏/显示控制条 ）
     UITapGestureRecognizer *onceTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(onceTap)];
     onceTap.numberOfTapsRequired = 1;
+    onceTap.delaysTouchesBegan = YES;
     [_setview addGestureRecognizer:onceTap];
+    [onceTap requireGestureRecognizerToFail:doubleTap];
 }
 
 // 双击屏幕

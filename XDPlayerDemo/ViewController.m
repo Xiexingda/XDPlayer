@@ -38,7 +38,7 @@
     
     XDPlayerContorller *root = [[XDPlayerContorller alloc]init];
     //测试网址 （使用时把该网址换成 自己的）
-    root.urlStr = @"http://xddfile.jiejiegao.com/2/ali/v/67a592258f61491cb779dac41b15873f.mp4";
+    root.urlStr = @"http://v.jxvdy.com/sendfile/w5bgP3A8JgiQQo5l0hvoNGE2H16WbN09X-ONHPq3P3C1BISgf7C-qVs6_c8oaw3zKScO78I--b0BGFBRxlpw13sf2e54QA";
     [self.navigationController pushViewController:root animated:YES];
 }
 
