@@ -63,7 +63,7 @@
     //初始化标志符号
     [self markManiger];
     
-    //创建主UI
+    //创建主UI 
     [self creatMainUI];
     
     //是否可以横屏检测，应用重力感应横屏放大或缩小
